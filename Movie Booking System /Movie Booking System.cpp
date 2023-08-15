@@ -21,17 +21,27 @@ void movielisting (int option) {
     cout << "----------------------------------------" << endl;
     cout<<endl;
 }
-/*
+
 void choosingofseat (int nofseat) {
-    int rows = 10;
-    int col = 10;
-    string seats [rows][col];
-    for (int i=0; i<rows; i++) {
-        for (int j=0; j<col; j++) {
-            cin>> 
+    int selectedseatnumber;
+    cout<< "Select seat number (1-100): ";
+    cin>> selectedseatnumber;
+    cout<<endl;
+    
+    if (nofseat == 2) {
+        int moreseat = bool (1 && 0);
+        int anotherseat;
+        cout<< "Do you want to book more seats? (1 if yes || 0 is no): ";
+        cin>> moreseat;
+        if (moreseat == 1) {
+            cout<< "Select another seat number: ";
+            cin>> anotherseat;
+        }
+        else if (moreseat == 0) {
+            cout<< "No Problem! let us process further"<<endl;
         }
     }
-}*/
+}
 
 void selectingseat () {
     int rows = 10;
@@ -58,7 +68,7 @@ void selectingseat () {
     cout<< "How many seat you want to book?: ";
     cin>> nofseat;
     cout<<endl;
-    //choosingofseat (nofseat);
+    choosingofseat (nofseat);
 }
 
 void selectingfilm (int option) {
