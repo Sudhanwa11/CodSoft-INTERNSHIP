@@ -59,7 +59,7 @@ void totalcost (int nofseat) {
 void blockingofseat (int selectedseatnumber, int anotherseat) {
     int s1 = selectedseatnumber;
     int s2 = anotherseat;
-    if (s2 == 0 && s2 != s1) {
+    if (s2 == 0) {
         while (s1 != s2 || s1 <= 100 || s1 > 0) {
             cout<<endl;
             cout<< "Congrats! Your seat has been booked." <<endl;
@@ -67,7 +67,7 @@ void blockingofseat (int selectedseatnumber, int anotherseat) {
             break;
         } 
     }
-    if (s1 == 0 && s1 != s2) {
+    if (s1 == 0) {
         while (s2 != s1 || s2 <= 100 || s2 > 0) {
             cout<<endl;
             cout<< "Congrats! one more seat has been booked." <<endl;
