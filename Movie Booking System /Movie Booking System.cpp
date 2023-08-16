@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 const int rows = 10;
 const int col = 10;
 
