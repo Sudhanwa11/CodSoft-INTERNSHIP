@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+//MOVIE BOOKING SYSTEM!!!
+//CREATED BY SUDHANWA FOR CODSOFT INTERNSHIP
+
 void introduction () {
     cout << "----------------------------------------" << endl;
     cout << "WELCOME!!!, Cinephiles!" << endl;
@@ -100,6 +103,9 @@ void cancelseat (int nofseat, int selectedseatnumber, int anotherseat) {
 }
 
 void choosingofseat (int nofseat) {
+    if (nofseat == 0) {
+        return;
+    }
     int selectedseatnumber;
     cout<< "Select seat number (1-100): ";
     cin>> selectedseatnumber;
@@ -138,6 +144,8 @@ void selectingseat () {
         }
         cout<<endl;
     }
+    cout<<endl;
+    cout<< "                            COST PER SEAT: Rs. 200" <<endl;
     cout<<endl;
     cout<< "_______________________________SCREEN_THIS_SIDE________________________________" <<endl;
     cout<<endl;
@@ -193,7 +201,7 @@ void selectingfilm (int option) {
 }
 
 void exitop (int option) {
-    cout<< ":(" <<endl;
+    cout<< ":( :( :(" <<endl;
     cout<< "We hope you'll come back" <<endl;
     cout << "----------------------------------------" << endl;
 }
