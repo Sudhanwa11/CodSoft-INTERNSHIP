@@ -2,7 +2,6 @@
 #include <vector>
 #include <string>
 using namespace std;
-
 struct Task {
     string description;
     bool completed;
