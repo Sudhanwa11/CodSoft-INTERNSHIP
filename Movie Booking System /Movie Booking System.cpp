@@ -10,7 +10,6 @@ void introduction () {
     cout << "Hope you're doing great" << endl;
     cout << "----------------------------------------" << endl;
 }
-
 void movielisting (int option) {
     cout<< "Currently showing movies are: " <<endl;
     cout<< "1. Jawan" <<endl;
