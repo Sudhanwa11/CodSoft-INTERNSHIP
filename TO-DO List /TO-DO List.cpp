@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 using namespace std;
+
 struct Task {
     string description;
     bool completed;
@@ -10,7 +11,6 @@ struct Task {
 class ToDoList {
 private:
     vector<Task> tasks;
-
 public:
     void addTask (const string& description) {
         Task newTask = {description, false};
