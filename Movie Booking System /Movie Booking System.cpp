@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 //MOVIE BOOKING SYSTEM!!!
 //CREATED BY SUDHANWA FOR CODSOFT INTERNSHIP
 
