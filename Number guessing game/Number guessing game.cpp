@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 using namespace std;
+
 int main() {
     srand ((unsigned int) time(NULL));
     int number = (rand() % 100) + 1; // 0-99 + 1 -> 1-100
